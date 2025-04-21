@@ -53,6 +53,9 @@ app.use('/api/v1/calls', calls);
 app.use('/api/v1/messages', messages);
 app.use('/api/v1/health', health);
 
+
+app.get('/', (req, res) => res.send('Server is running'));
+
 // Error handler middleware
 app.use(errorHandler);
 
