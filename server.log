@@ -1,0 +1,3 @@
+Server running in development mode on port 5010
+MongoDB Connected: localhost
+[0mPOST /api/v1/auth/login [32m200[0m 219.083 ms - 198[0m
